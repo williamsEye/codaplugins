@@ -142,7 +142,7 @@ body
         transform: rotateX( 180deg );
 }
 
-.tile a
+.tile .clickable
 {
     color: #FFF;
     display: block;
@@ -198,6 +198,11 @@ body
         transform: rotateX( 180deg );
 }
 
+.tile a
+{
+    color: #FFF;
+}
+
 .tile h3,
 .tile p
 {
@@ -233,6 +238,10 @@ body
     background: #E76121 url("/resources/regex.png") no-repeat;
 }
 
+#task-timer
+{
+    background: #EE3B38 url("/resources/task-timer.png") no-repeat;
+}
 
 #virtual-hosts
 {
